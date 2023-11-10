@@ -1,0 +1,3 @@
+﻿  4-b10.cpp
+D:\all\判断是否为幂\4-b10.cpp(34): warning C4715: “is_power”: 不是所有的控件路径都返回值
+  判断是否为幂.vcxproj -> D:\all\Debug\判断是否为幂.exe

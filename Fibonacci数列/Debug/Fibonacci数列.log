@@ -1,0 +1,3 @@
+﻿  4-b9.cpp
+D:\all\Fibonacci数列\4-b9.cpp(24): warning C4715: “fibonacci”: 不是所有的控件路径都返回值
+  Fibonacci数列.vcxproj -> D:\all\Debug\Fibonacci数列.exe

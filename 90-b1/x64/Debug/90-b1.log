@@ -1,0 +1,7 @@
+﻿  cmd_console_tools.cpp
+C:\Users\sjm\Desktop\学习\高程\21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\cmd_console_tools.cpp(211,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  hanoi_main.cpp
+  hanoi_menu.cpp
+  hanoi_multiple_solutions.cpp
+  正在生成代码...
+  90-b1.vcxproj -> D:\大一上高程\x64\Debug\90-b1.exe

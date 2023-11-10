@@ -1,0 +1,37 @@
+# Project: hanoi
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/cmd_console_tools.o" "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_main.o" "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_menu.o" "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_multiple_solutions.o"
+LINKOBJ  = "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/cmd_console_tools.o" "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_main.o" "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_menu.o" "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_multiple_solutions.o"
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32 -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = hanoi.exe
+CXXFLAGS = $(CXXINCS) -m32 -g3
+CFLAGS   = $(INCS) -m32 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+"C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/cmd_console_tools.o": C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/cmd_console_tools.cpp
+	$(CPP) -c "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/cmd_console_tools.cpp" -o "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/cmd_console_tools.o" $(CXXFLAGS)
+
+"C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_main.o": C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_main.cpp
+	$(CPP) -c "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_main.cpp" -o "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_main.o" $(CXXFLAGS)
+
+"C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_menu.o": C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_menu.cpp
+	$(CPP) -c "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_menu.cpp" -o "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_menu.o" $(CXXFLAGS)
+
+"C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_multiple_solutions.o": C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101.\ 综合题\ -\ 第01题\ -\ 汉诺塔综合演示/hanoi_multiple_solutions.cpp
+	$(CPP) -c "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_multiple_solutions.cpp" -o "C:/Users/sjm/Desktop/学习/高程/21221-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示/hanoi_multiple_solutions.o" $(CXXFLAGS)

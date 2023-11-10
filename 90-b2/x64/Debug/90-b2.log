@@ -1,0 +1,27 @@
+﻿  90-b2-base.cpp
+  90-b2-console.cpp
+  90-b2-main.cpp
+  90-b2-net.cpp
+  90-b2-tools.cpp
+  cmd_console_tools.cpp
+D:\大一上高程\90-b2\cmd_console_tools.cpp(211,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl mto10_net_tools::mto10_net_tools(void)" (??0mto10_net_tools@@QEAA@XZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl mto10_net_tools::~mto10_net_tools(void)" (??1mto10_net_tools@@QEAA@XZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::connect(void)" (?connect@mto10_net_tools@@QEAAHXZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::close(void)" (?close@mto10_net_tools@@QEAAHXZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::send_parameter(char const *,char,char const *,int,int,int,int)" (?send_parameter@mto10_net_tools@@QEAAHPEBDD0HHHH@Z)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::send_coordinate(char,int)" (?send_coordinate@mto10_net_tools@@QEAAHDH@Z)，函数 "int __cdecl game_progress(class mto10_net_tools &,int,int,int)" (?game_progress@@YAHAEAVmto10_net_tools@@HHH@Z) 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl mto10_net_tools::set_debug_switch(bool)" (?set_debug_switch@mto10_net_tools@@QEAAX_N@Z)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::wait_for_game_start(void)" (?wait_for_game_start@mto10_net_tools@@QEAAHXZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::get_gameprogress_string(char *)" (?get_gameprogress_string@mto10_net_tools@@QEAAHPEAD@Z)，函数 "int __cdecl game_progress(class mto10_net_tools &,int,int,int)" (?game_progress@@YAHAEAVmto10_net_tools@@HHH@Z) 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::get_row(void)const " (?get_row@mto10_net_tools@@QEBAHXZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::get_col(void)const " (?get_col@mto10_net_tools@@QEBAHXZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::get_gameid(void)const " (?get_gameid@mto10_net_tools@@QEBAHXZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::get_delay(void)const " (?get_delay@mto10_net_tools@@QEBAHXZ)，函数 main 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl mto10_net_tools::is_gameover(void)const " (?is_gameover@mto10_net_tools@@QEBAHXZ)，函数 "int __cdecl game_progress(class mto10_net_tools &,int,int,int)" (?game_progress@@YAHAEAVmto10_net_tools@@HHH@Z) 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: char const * __cdecl mto10_net_tools::get_map(void)const " (?get_map@mto10_net_tools@@QEBAPEBDXZ)，函数 "int __cdecl game_progress(class mto10_net_tools &,int,int,int)" (?game_progress@@YAHAEAVmto10_net_tools@@HHH@Z) 中引用了该符号
+90-b2-main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl mto10_net_tools::print_map(void)const " (?print_map@mto10_net_tools@@QEBAXXZ)，函数 "int __cdecl game_progress(class mto10_net_tools &,int,int,int)" (?game_progress@@YAHAEAVmto10_net_tools@@HHH@Z) 中引用了该符号
+C:\Users\sjm\Desktop\学习\高程\21221-900102-W1401. 综合题 - 第02题 - 合成十游戏\lib_md5_sha_tools.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\sjm\Desktop\学习\高程\lib_mto10_net_tools.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\大一上高程\x64\Debug\90-b2.exe : fatal error LNK1120: 16 个无法解析的外部命令

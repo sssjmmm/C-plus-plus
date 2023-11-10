@@ -1,0 +1,10 @@
+请输入个数num及num个正整数：
+个数输入错误
+请输入个数num及num个正整数：
+max=55
+请输入个数num及num个正整数：
+请输入个数num及num个正整数：
+max=3
+请输入个数num及num个正整数：
+请输入个数num及num个正整数：
+max=4

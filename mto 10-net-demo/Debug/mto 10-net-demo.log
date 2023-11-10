@@ -1,0 +1,6 @@
+﻿  mto 10-net-demo.cpp
+lib_md5_sha_tools.lib(lib_md5_tools.obj) : warning LNK4099: 未找到 PDB“”(使用“lib_md5_sha_tools.lib(lib_md5_tools.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+lib_md5_sha_tools.lib(pch.obj) : warning LNK4099: 未找到 PDB“lib_md5_sha_tools.pdb”(使用“lib_md5_sha_tools.lib(pch.obj)”或在“D:\all\Debug\lib_md5_sha_tools.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+lib_mto10_net_tools.lib(lib_mto10_net_tools.obj) : warning LNK4099: 未找到 PDB“lib_mto10_net_tools.pdb”(使用“lib_mto10_net_tools.lib(lib_mto10_net_tools.obj)”或在“D:\all\Debug\lib_mto10_net_tools.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+lib_mto10_net_tools.lib(pch.obj) : warning LNK4099: 未找到 PDB“lib_mto10_net_tools.pdb”(使用“lib_mto10_net_tools.lib(pch.obj)”或在“D:\all\Debug\lib_mto10_net_tools.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  mto 10-net-demo.vcxproj -> D:\all\Debug\mto 10-net-demo.exe

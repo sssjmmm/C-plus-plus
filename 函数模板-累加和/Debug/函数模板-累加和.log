@@ -1,0 +1,8 @@
+﻿  4-b21-2.cpp
+D:\all\函数模板-累加和\4-b21-2.cpp(15,22): warning C4018: “<=”: 有符号/无符号不匹配
+D:\all\函数模板-累加和\4-b21-2.cpp(41): message : 查看对正在编译的函数 模板 实例化“T fun<unsigned int>(T)”的引用
+          with
+          [
+              T=unsigned int
+          ]
+  函数模板-累加和.vcxproj -> D:\all\Debug\函数模板-累加和.exe
